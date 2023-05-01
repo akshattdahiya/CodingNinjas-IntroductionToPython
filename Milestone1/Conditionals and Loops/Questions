@@ -1,0 +1,46 @@
+Output Question 1:
+Answer : Inside if
+Solution Description
+The value of x is 15.
+The if conditions check if x is less than or equal to 15, which will return in True and “Inside if” will be printed.
+
+Output Question 2:
+Answer : This is an equilateral triangle
+Solution Description
+As the value of a == b and b == c, it will print "This is an equilateral triangle".
+
+Output Question 3:
+Answer : too low
+Solution Description
+As the value of n is 10, the if condition will result in True, and “too low” will be printed. The code will come out after the first block itself since it was true and won't go on to check for other if-else conditions.
+
+Output Question 4:
+Answer : print("Hello") , print("Hi")
+Solution Description
+The value of x is 5. 
+In the first, if condition, it will check if x is less than 6, which will output True and “Hello” will be printed.
+In the second if condition, it will check if x is equal to 5, which also results in True and “Hi” getting printed on the screen.
+
+Output Question 5:
+Answer : B
+
+Output Question 6:
+Answer : B
+
+Output Question 7:
+Answer : Indentation error
+Solution Description
+After the while condition, the indentation of the next statement is wrong. That’s why it will give an indentation error.
+
+Output Question 8:
+Answer : Infinite times 0 will be printed
+Solution Description
+Here the “i = i + 1” part is out of the while loop. So “i” will not get updated inside while loop and it will run infinitely.
+
+Output Question 9:
+Answer : Numbers from 0 to 9 will be printed
+Solution Description
+The output will be printed as numbers from 0 to 9 as the indentation is proper.
+
+
+I hope these answers help you. Thanks a lot. Please star this repository (from top right corner).
