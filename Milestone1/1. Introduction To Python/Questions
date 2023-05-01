@@ -58,3 +58,6 @@ Output Question 11:
 Answer : Value Error
 Solution Description
 If the input is type cast as int(), then it expects the input only in the form of integers and produces a "Value Error" if given other than integers.
+
+
+I hope these answers help you. Thanks a lot. Please star this repository (from top right corner).
