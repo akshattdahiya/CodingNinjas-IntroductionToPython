@@ -1,0 +1,60 @@
+Output Question 1:
+Answer : Career Labs(in next line)
+Solution Description
+“Career” and “Labs” are printed in separate lines because by default print() function ends with a new line.
+
+Output Question 2:
+Answer : multiple
+Solution Description
+If anything is written in “”(double quotes), then it is treated as a string in python. So, when “multiple” is passed in the print function, it takes it as a string, not as a variable.
+
+Output Question 3:
+Answer : 200
+Solution Description
+Here, “multiple” is used as a variable. So when it’s passed to the print function, the output will be the value present inside the “multiple” variable.
+
+Output Question 4:
+Answer : var1 , var_1 , _var1
+Solution Description
+“1var” is not a correct variable name in python because no variable name should start with a number.
+“A variable name must start with a letter or the underscore character. A variable name cannot start with a number. A variable name can only contain alpha-numeric characters and underscores (A-z, 0-9, and _ ). Variable names are case-sensitive (age, Age and AGE are three different variables)"
+
+Output Question 5:
+Answer : abcd
+Solution Description
+“Variables are called variables because their values can be varied. And the last re-assigned value stays in the variable.”
+
+Output Question 6:
+Answer : int
+Solution Description
+“In python, the data-type of a variable depends on the type of value it has been assigned. In this question, firstly, the “str” class was assigned to the “x” variable. But after that it got re-assigned to “int” class type”.
+
+Output Question 7:
+Answer : Yes
+Solution Description
+In python, the values are stored in a separate memory. And an address/id is stored in the variable, which points to that memory location. So, if “10” is stored in both “a” and “b”, the id is going to be the same for both of these.
+
+Output Question 8:
+Answer : 1
+Solution Description
+“//” in python is called “Floor division” operator. The division in the whole number is adjusted to the left in the number line.
+
+Output Question 9:
+Answer : "4057"
+Solution Description
+input() function always returns a value of the String type.
+
+Output Question 10:
+Answer : 97
+Solution Description
+Python offers two functions int() and float() to be used with the input() function to
+convert the values received through the input() into the respective numeric types integer and
+floating-point numbers. The steps will be:-
+1. Use the input() function to read the user input.
+2. Use the int() and float() function to convert the value read into integers and
+floating-point numbers, respectively. This process is called Type Casting.
+
+Output Question 11:
+Answer : Value Error
+Solution Description
+If the input is type cast as int(), then it expects the input only in the form of integers and produces a "Value Error" if given other than integers.
