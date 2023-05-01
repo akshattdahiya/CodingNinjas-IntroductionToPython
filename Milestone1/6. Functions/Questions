@@ -1,0 +1,41 @@
+Output Question 1:
+Answer : 5
+Solution Description
+When ‘func(a)’ is called the value of ‘a’ passed is 5. Inside the function, this value is stored in the local variable ‘a’. The func(b) function returns the value of 15 but this value is not stored in any variable. So when print(a) is called, it will output the value 5.
+
+Output Question 2:
+Answer : 16
+Solution Description
+When ‘func(a)’ is called the value of ‘a’ passed is 4. Inside the function, this value is stored in the local variable ‘a’. The func(a) function returns the value of 16. This value is then assigned to the global variable ‘a’. And print(a) will output the value 16.
+
+Output Question 3:
+Answer : 14
+Solution Description
+When f() is called, it changes the value of 'a' whose scope is local only limited inside f(). So when print(a) is called, then it takes the value of 'a' which is assigned as global and outputs 14.
+
+Output Question 4:
+Answer : 12
+Solution Description
+When f() is called, it changes the value of 'a' whose scope is global, as the global keyword is used to indicate that variable ‘a’ is used in global scope and changes it’s value to 12. So when print(a) is called, then it takes the value of 'a' which is assigned as global and outputs 12.
+
+Output Question 5:
+Answer : 12
+Solution Description
+When f() is called, it changes the value of 'a' whose scope is local only limited inside f() but then the returned value of this function is assigned to global ‘a’. So when print(a) is called, then it takes the value of 'a' which is assigned as global and outputs 12.
+
+Output Question 6:
+Answer : 21
+Solution Description
+When function(10, 12) is called, then ‘a’ is assigned to 10, ‘b’ is assigned to 12 and ‘c’ takes the default value of 1. This function then returns 21.
+
+Output Question 7:
+Answer : 17
+Solution Description
+When function(10, 12, 5) is called, then ‘a’ is assigned to 10, ‘b’ is assigned to 12 and ‘c’ is  assigned to 5. This function then returns 17.
+
+Output Question 8:
+Answer : 11
+Solution Description
+When function(1,2,d=7) is called, then it assigns ‘a’ to 1, ‘b’ to 2 and ‘d’ to 7. When a default parameter needs to be assigned while calling the out of order, then we explicitly need to tell which parameter we need to assign value.
+
+
