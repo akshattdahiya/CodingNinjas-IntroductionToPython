@@ -39,3 +39,4 @@ Solution Description
 When function(1,2,d=7) is called, then it assigns ‘a’ to 1, ‘b’ to 2 and ‘d’ to 7. When a default parameter needs to be assigned while calling the out of order, then we explicitly need to tell which parameter we need to assign value.
 
 
+I hope these answers help you. Thanks a lot. Please star this repository (from top right corner).
