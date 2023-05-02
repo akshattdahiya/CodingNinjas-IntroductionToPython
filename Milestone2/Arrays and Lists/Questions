@@ -13,4 +13,8 @@ Output Question 4:
 Answer : 2 3 4
 
 Output Question 5:
-Answer : 
+Answer : ['1','2','3','4','5']
+Solution Description
+The first line of input will give the value of n, which will tell us the number of elements present in the list. 
+For each input value in new line, the inner part of the for loop will take a character input and it will get appended in the list.
+Notice the string value of the numbers inside the array in option (b).
