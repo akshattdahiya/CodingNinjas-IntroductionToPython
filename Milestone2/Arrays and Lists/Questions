@@ -8,3 +8,9 @@ Output Question 3:
 Answer : [5,2,8]
 Solution Description
 The pop() method returns the item present at the given index.
+
+Output Question 4:
+Answer : 2 3 4
+
+Output Question 5:
+Answer : 
