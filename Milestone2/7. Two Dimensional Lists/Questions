@@ -9,3 +9,12 @@ Answer : [7,8,9]
 
 Output Question 4:
 Answer : Error
+
+Output Question 5:
+Answer : [0,1,4,9,16]
+
+Output Question 6:
+Answer : [0,9,36,81]
+
+Output Question 7:
+Answer : [[0, 0, 0, 0], [0, 1, 2, 3], [0, 2, 4, 6]]
