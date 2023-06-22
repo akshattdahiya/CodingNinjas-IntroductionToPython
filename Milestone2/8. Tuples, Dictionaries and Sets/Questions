@@ -1,0 +1,59 @@
+Output Question 1:
+Answer : (6,7)
+Explanation : We can slice a Tuple and then access any required range of elements like in the case of the lists. In this case when a[1:] is called then it starts taking elements from index 1 till the last of the tuple. So the output is 6, 7.
+
+Output Question 2:
+Answer : Error
+Explanation : A Tuple is immutable. We cannot change the elements of a Tuple once it is created.
+
+Output Question 3:
+Answer : (1,2)
+Explanation : When multiple values are assigned to a variable separated by a comma. Then the values are stored in the form of tuples.
+
+Output Question 4:
+Answer : 4
+Explanation : + operator concatenates two tuples. In this example:
+                                                  a = 1, 2
+                                                  b = (4, 5)
+                                                  d = a + b = (1, 2, 4, 5)
+                                                  print(d[2]) = 4
+
+Output Question 5:
+Answer : ab
+Explanation : To find the maximum element in a tuple, the keyword used is max and for finding the minimum element, the keyword used is min. These keywords return the maximum and the minimum elements of the tuple, respectively.
+
+Output Question 6:
+Answer : 120
+Explanation : *more is used to take variable-length input in the form of a single tuple.
+
+Output Question 7:
+Answer : (9,24)
+Explanation : Following the conventional ways, we can return only a single value from any function. However, with the help of tuples, we can overcome this disadvantage. Tuples help us in returning multiple values from a single function. This can be done by returning comma-separated-values, from any function. On being returned, these comma-separated values act as a tuple. We can access the various entries from this returned tuple.
+
+Output Question 8:
+Answer : Error
+Explanation : We already know that the indexing in a dictionary is done with the keys from the various key-value pairs present within. Thus to access any value we need to use its index i.e. its key. But in this case, 0 is not present in the dictionary as a key. That’s why it will throw an error. To handle the key not present in the dictionary error, the get() function can be used. A very unique feature of this method is that in case the desired key is not present in the dictionary, it won’t throw an error or an exception. It would simply return None.
+
+Output Question 9:
+Answer : 5
+Explanation: We can make use of this feature in another way. Say we want the method to do the following action: If the key is present in the dictionary then return the value corresponding to the key. In case the key is not present, return a custom desired value ( say 0 ).
+
+Output Question 10:
+Answer : Not Present
+Explanation : The “in” operator iterates only through the keys of the dictionary.
+
+Output Question 11:
+Answer : 7
+Explanation : The “update” method is used to merge the contents of both the dictionaries and form a single dictionary out of it. In this process, the second dictionary is unchanged and the contents of the second dictionary are copied into the first dictionary. The uncommon keys from the second dictionary are added to the first with their corresponding values. However, if these dictionaries have any common key, then the value of the common key present in the first dictionary is updated to the new value from the second. In this case when the update is called then tuple 'a' becomes:     a = {1:2,’list’:[1,2],4:5,3:7}     So, a[3] returns 7.
+
+Output Question 12:
+Answer : [3,5]
+Explanation : In order to delete an entry corresponding to any key in a dictionary, we can simply pop the key from the dictionary. The method used here is .pop(). This method removes the key-value pair corresponding to any particular key and then returns the value of the removed key-value pair. In this case, when a.pop(‘list’) is called it removed the key 'list' from a. And when a[‘list’] = [3,5] is called it added another key named 'list'. The output for print(a[‘list’]) is [3, 5].
+
+Output Question 13:
+Answer : 5 5
+Explanation : The elements in a set cannot be repeated i.e. an element can occur only once. s = {1,2,3,5,4,2,3,1} outputs {1, 2, 3, 4, 5} When s.add(4) is called firstly it checks if 4 is already present and if not present then only adds it to the set. Same for s.add(3) Final output is {1, 2, 3, 4, 5}.
+
+Output Question 14:
+Answer : Error
+Explanation : A set is created by using the set() function or placing all the elements within a pair of curly braces, separated by commas.
